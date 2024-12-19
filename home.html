@@ -48,15 +48,16 @@
         </tr>
     </table>
     <script>
-         var name = +prompt("enter your name: ");
-            var age = +prompt("enter your age: ");
-            var employeeid = +prompt("enter your employee id: ");
-                var salary = +prompt("enter your salary: ");
-        
-            document.getElementById("name").innerHTML = name;
-            document.getElementById("age").innerHTML = age;
-            document.getElementById("eid").innerHTML = employeeid;
-            document.getElementById("salary").innerHTML = salary;
+      var  employee={
+          name : prompt("enter your name: "),
+             age : +prompt("enter your age: "),
+             employeeid : +prompt("enter your employee id: "),
+                 salary : +prompt("enter your salary: ")
+      }
+            document.getElementById("name").innerHTML = employee.name;
+            document.getElementById("age").innerHTML = employee.age;
+            document.getElementById("eid").innerHTML = employee.employeeid;
+            document.getElementById("salary").innerHTML = employee.salary;
         
 
 
