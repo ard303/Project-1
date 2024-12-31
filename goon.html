@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class student {
+            constructor(name, age,address) {
+                this.name = name
+                this.age = age
+                this.address = address
+            }
+
+            info() {
+                document.write("my name is ", this.name, " my age is ", this.age ," my address is ", this.address )
+            }
+        }
+        ob = new student("ayan", "17","564 m block")
+        ob.info()
+        document.write("<br>")
+
+        ob2 = new student("usman", "10","453 j4")
+        ob2.info()
+    </script>
+</body>
+</html>
