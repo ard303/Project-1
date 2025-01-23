@@ -1,0 +1,28 @@
+.bg{
+    width: 100%;
+    height: 400px;
+        background-color: black;
+        background-image: url('image.png');
+        background-repeat: no-repeat;
+        padding-top: 175px;
+        opacity: 0.;
+}
+.btn1{
+   color: red;
+    border: 3px solid crimson;
+    margin-top: ;
+   background: none ;
+   width: 200px;
+ border-radius: 20px;
+ padding: 5px;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+
+}
+.nor{
+    width: 85%;
+    margin:auto;
+    font-size: 10px;
+}
